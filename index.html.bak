@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- This website was created by: Tyler Kursh -->
+<html lang="en">
+<head>
+	<title>Tyler Kursh Portfolio Website</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div id="container">
+		
+		<nav>
+			
+			<div id=name><p>Tyler Kursh</p></div>
+		
+			<ul>
+				<li><a href="index.html">About Me</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<main>
+			
+			<div class="aboutMe">
+				<h1>About Me</h1>
+				
+				<div class="round">
+					<img height="250px" width="250px"  src="images/me.png" alt="me and my cat">
+				</div>
+					
+				<p>Hi I'm Tyler. I am a student pursuing a Bachelor's of Science in Information Technology at Kent State and I will be graduating at the end of 2023. I enjoy all aspects of technology, but I have a particular interest in software development. I live in Kirtland, Ohio and my down-time is usually spent hiking, woodworking, and playing board games.</p>
+			</div>
+			
+			<div id="skills">
+				<h2>Skills</h2>
+				<img src="images/badges.png">
+			</div>
+
+			
+			<div id="portfolio">
+				<h1>Portfolio</h1>
+				<div id="pixel">
+					<h2>Current Project: Pixel RPG</h2>
+					<video width = "500px" height = "281px" controls>
+						<source src="media/pixel_rpg_video.mp4" type="video/mp4">
+					</video>
+					<p>Assets: Mystic Woods by Game Endeavor</p>
+					<p>Ongoing project I started after completing the Unity Junior Programmer pathway. First time working in Unity 2D. Having a lot of fun working with animations, casting for collisions, and vector math for the enemy AI. Next steps include adding UI, session persistance, skeleton death animations, knockback animations, second enemy type, and a spawn manager. Soon, I will start a much larger but similar game using my own assets.
+				</div>
+				
+				<div id="beach">
+					<h2>Beach Bombs Minigame</h2>
+					<video width = "500px" height = "281px" controls>
+						<source src="media/beach_bombs_video.mp4" type="video/mp4">
+					</video>
+					<p>Assets: Unity Create With Code Asset Pack</p>
+					<p>Small game I made while going through Unity tutorials. First time really experimenting with particle effects, audioclips, and UI.</p>
+				</div>
+				
+				<div id="balance">
+					<h2>Rolling Ball Minigame</h2>
+					<video width = "500px" height = "281px" controls>
+						<source src="media/balance_video.mp4" type="video/mp4">
+					</video>
+					<p>Assets: Unity Create With Code Asset Pack</p>
+					<p>Prototype I made during Unity tutorials. Playing around with physics and difficulty progression.
+				</div>
+			</div>
+			
+			<div id="spacer">
+			</div>
+			
+			
+		</main>
+		
+		
+		<footer>
+			<p>&copy; Copyright 2022. All Rights Reserved.</p>
+			<p><a href="mailto:tyler.kursh@gmail.com">tyler.kursh@gmail.com</a></p>
+		</footer>
+	
+	</div>
+	
+</body>
+</html>

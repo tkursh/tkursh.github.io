@@ -1,0 +1,279 @@
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img, ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Mobile Viewport */
+
+#container {
+	height: 100%;
+	width: 100%;
+	background-image: url(images/site_wallpaper.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+nav {
+		height: auto;
+		background-color: #669999;
+		text-align:center;
+}
+
+#name{
+		font-family: 'Francois One', sans-serif;
+		color: #fff;
+		display: inline-block;
+		font-size: 1.5em;
+		padding-top: 25px;
+	}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	padding-top: 15px;
+}
+
+nav li {
+	font-size: 1.5em;
+	font-family: 'Francois One', sans-serif;
+	border-top: 1px solid #fff;
+}
+
+nav li:first-child {
+	border-top: none;
+}
+	
+nav li a {
+	display: block;
+	color: #fff;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+nav li a:hover {
+		color: #000;
+		background-color: #fff;
+	}
+
+main {
+	padding: 2%;
+	font-size: 1.15em;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#skills{
+		background-color: #d6d6d6;
+		text-align: center;
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		border-radius: 20px;
+	}
+
+p{
+	text-align: justify;
+	margin: 0 10px;
+}
+
+video{
+	width: 100%;
+}
+
+	#form {
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 40px;
+	}
+	
+	#form_header {
+		text-align: center;
+	}
+	
+	
+	input[type=text], textarea {
+	  width: 100%; 
+	  padding: 12px; 
+	  border: 1px solid #ccc; 
+	  border-radius: 4px; 
+	  box-sizing: border-box; 
+	  margin-top: 6px; 
+	  margin-bottom: 16px; 
+	  resize: vertical
+	}
+
+	input[type=submit] {
+	  background-color: #04AA6D;
+	  color: white;
+	  padding: 12px 20px;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	  margin: 0 auto;
+	}
+	
+	input[type=submit]:hover {
+	  background-color: #45a049;
+	}
+
+footer p {
+	font-size: 0.75em;
+	text-align: center;
+	background-color:#669999;
+	margin: 0 auto;
+	height: 25px;
+	padding-top: 7px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Tablet Viewport */
+@media screen and (min-width: 630px), print {
+	
+	#name{
+		float: left;
+		padding-left: 50px;
+		display: inline;
+	}
+	
+	nav ul {
+		text-align: right;
+	}
+	
+	nav li {
+		display: inline-block;
+	}
+	
+	nav li {
+		border: none;
+	}
+	
+	nav li a {
+		padding: 0.5em 1em;
+	}
+	
+	#skills{
+		width: 400px;
+		height: 350px;
+	}
+	
+/* Desktop Viewport */
+@media screen and (min-width: 1015px), print {
+	
+	
+		
+	.round{
+		float: left;
+		shape-outside: circle(50%);
+		width: 300px;
+		height: 250px;
+		margin-top: 20px;
+	}
+	
+	p{
+		text-align: justify;
+	}
+
+	
+	.aboutMe{
+		font-size: 25px;
+		text-align: center;
+		margin: 0 auto;
+		display: block;
+		width: 1000px;
+		padding-bottom: 55px;
+	}
+	
+	
+	#portfolio {
+		text-align: center;
+		padding-top: 70px;
+		margin: 0 auto;
+	}
+	
+	#balance, #beach, #pixel {
+		width: 29%;
+		margin: 0 2%;
+		float: left;
+	}
+	
+	video {
+		height: 100%;
+		width: 100%;
+	}
+	
+	#spacer {
+		padding-top: 25px;
+		clear: left;
+	}
+	
+	#form {
+		width: 50%;
+		margin: 0 auto;
+		padding-top: 40px;
+	}
+	
+	#form_header {
+		text-align: center;
+	}
+	
+	fieldset {
+		text-align: left;
+	}
+	
+	input[type=text], textarea {
+	  width: 100%; 
+	  padding: 12px; 
+	  border: 1px solid #ccc; 
+	  border-radius: 4px; 
+	  box-sizing: border-box; 
+	  margin-top: 6px; 
+	  margin-bottom: 16px; 
+	  resize: vertical
+	}
+
+	input[type=submit] {
+	  background-color: #04AA6D;
+	  color: white;
+	  padding: 12px 20px;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	  margin: 0 auto;
+	}
+	
+	input[type=submit]:hover {
+	  background-color: #45a049;
+	}
+	
+	#button_container {
+		text-align: center;
+		padding-top: 10px;
+	}	
+}
+
+/* Large Viewport */
+@media screen and (min-width: 1921px) {
+	
+	#container {
+		width: 1920px;
+		margin: 0 auto;
+	}
+	
+}
+
+/* Print Viewport */
+@media print {
+	
+	body {
+		background-color: #fff;
+		color: #000;
+	}
+	
+}
