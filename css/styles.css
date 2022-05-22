@@ -40,10 +40,6 @@ nav li {
 	font-family: 'Francois One', sans-serif;
 	border-top: 1px solid #fff;
 }
-
-nav li:first-child {
-	border-top: none;
-}
 	
 nav li a {
 	display: block;
